@@ -1,0 +1,168 @@
+/**
+ * Copyright (c) 2022
+ *
+ * @summary Menu page styling
+ * @author Connor Bernard <connorbernard@berkeley.edu>
+ *
+ */
+
+@import "style.css";
+
+body{
+    background-color:var(--material-white);
+}
+
+.menuNode{
+    width:100%;
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-blend-mode:darken !important;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:45px;
+    margin-bottom:50px;
+}
+.protein{
+    margin-top:20px;
+    text-align:center;
+    align-self:center;
+    color:var(--material-white);
+    line-height:0;
+    margin-bottom:20px;
+}
+.menuItems{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    margin:15px 100px;
+    max-width:1400px;
+    align-self:center;
+}
+.item{
+    background-color:var(--material-white);
+    opacity:80%;
+    width:283px;
+    height:245px;
+    border:2px solid var(--material-black);
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:5px 25px;
+    position:relative;
+}
+.item p{
+    margin:0;
+}
+.itemHead{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    align-self:center;
+    color:var(--material-black);
+    margin-top:5px;
+    font-weight:bold;
+}
+.itemHead > h3{
+    text-align: center;
+    width:120px;
+}
+.itemHead > svg{
+    margin-right: 10px;
+}
+.price{
+    font-family:"Inter";
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+}
+.dollar{
+    font-size:16px;
+}
+.cents{
+    font-size:50%;
+    vertical-align:top;
+}
+.itemDescription{
+    color:var(--material-black);
+    width:80%;
+}
+.modifiers{
+    position:absolute;
+    bottom:0;
+    align-self:flex-start;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    gap:12px;
+    margin:20px 10px;
+}
+.fave, .V{
+    background-color:var(--material-orange);
+    border-radius:5px;
+    color:var(--material-white);
+    align-self:flex-end;
+    padding:3px 10px;
+}
+.fave > p, .V > p{
+    font-size:12px;
+}
+
+.V{
+    background-color:var(--material-green);
+    border-radius:50%;
+    padding:5px 10px;
+}
+
+/* -- POLLO -- */
+#pollo{
+    background:rgba(0, 0, 0, 0.4) url("../img/pollo.png");
+    background-position:0% 30%;
+}
+
+/* -- MANZO -- */
+#manzo{
+    background:rgba(0, 0, 0, 0.4) url("../img/manzo.png");
+    background-position:0% 30%;
+}
+
+/* -- PESCE -- */
+#pesce{
+    background:rgba(0, 0, 0, 0.4) url("../img/pesce.png");
+    background-position:0% 50%;
+}
+
+/* -- VEGETARIANO -- */
+#vegetariano{
+    background:rgba(0, 0, 0, 0.4) url("../img/vegetariano.png");
+    background-position:0% 50%;
+}
+
+/* -- PASTA CLAZONE -- */
+#calzonedipasta{
+    background:rgba(0, 0, 0, 0.3) url("../img/calzonepasta.png");
+    background-position:0% 60%;
+}
+
+/* -- PIZZA -- */
+#pizza{
+    background:rgba(0, 0, 0, 0.4) url("../img/pizza.png");
+    background-position:0% 30%;
+}
+
+/* -- CALZONE -- */
+#calzone{
+    background:rgba(0, 0, 0, 0.3) url("../img/calzone.png");
+    background-position:0% 60%;
+}
+
+/* -- SALAD -- */
+#insalateepanini{
+    background:rgba(0, 0, 0, 0.3) url("../img/salad.png");
+    background-position:0% 40%;
+    margin-bottom:0;
+}

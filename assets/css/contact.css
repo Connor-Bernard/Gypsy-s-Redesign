@@ -1,0 +1,57 @@
+/**
+ * Copyright (c) 2022
+ *
+ * @summary Contct page styling
+ * @author Connor Bernard <connorbernard@berkeley.edu>
+ *
+ */
+@import "style.css";
+
+/* -- CONTACT NODE -- */
+#contactNode{
+    width:100%;
+    background-color:var(--material-white);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#contactNode > p{
+    text-align:center;
+}
+#contactForm{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:7vh;
+}
+input[type="text"], textarea{
+    background-color:var(--material-white);
+    color:var(--material-black);
+    border:1px solid var(--material-black);
+    border-radius:5px;
+    font-family:"inter";
+    font-size:16px;
+    padding:10px 15px;
+    margin-bottom:15px;
+    font-weight:bolder;
+    width:35vw;
+}
+#messageEntry{
+    height:150px;
+}
+textarea{
+    resize:none;
+}
+#submitButton{
+    font-size:16px;
+    padding:8px 30px;
+    align-self:center;
+}
+.success{
+    text-align: center;
+    color:var(--material-green);
+}
+.failed{
+    text-align:center;
+    color:var(--material-red);
+}

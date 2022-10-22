@@ -1,0 +1,234 @@
+/**
+ * Copyright (c) 2022
+ *
+ * @summary Landing page styling
+ * @author Connor Bernard <connorbernard@berkeley.edu>
+ *
+ */
+
+@import "./style.css";
+
+/* -- SET UP -- */
+:root{
+    --landing-text-load-time:600ms;
+    --landing-button-load-delay:var(--landing-text-load-time);
+    --landing-button-load-time:600ms;
+    --header-delay-time:calc(var(--landing-text-load-time) + var(--landing-button-load-time));
+    --header-load-time:800ms;
+    --scroll-delay-time:calc(var(--header-delay-time) + var(--header-load-time));
+}
+
+html{
+    height:100%;
+    overflow-y:hidden;
+    animation-name:stopScrolling;
+    animation-delay:var(--scroll-delay-time);
+    animation-duration:0;
+    animation-fill-mode:forwards;
+}
+
+header{
+    transform:translateY(-100%);
+    animation-name:headerAnimation;
+    animation-duration:var(--header-load-time);
+    animation-timing-function:ease-in;
+    animation-delay:var(--header-delay-time);
+    animation-fill-mode: forwards;
+}
+
+body{
+    justify-content: center;
+}
+
+/* -- INITIAL VIEW ON LOAD -- */
+#landingImgSection{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#landingImg{
+    height:100vh;
+    width:100vw;
+}
+
+#landingOptions{
+    position:absolute;
+    text-align: center;
+    margin-top:50vh;
+    transform:translateY(-10vh);
+    color: var(--material-white);
+}
+#landingTxt{
+    animation-name:fadeInSlideDown;
+    animation-duration: var(--landing-text-load-time);
+    animation-timing-function: ease-in;
+    line-height:25px;
+    font-weight:500;
+}
+#landingButton{
+    border:none;
+    border-radius:10px;
+    background-color:var(--material-orange);
+    padding:10px 14px;
+    font-size:18px;
+    font-family:"Inter";
+    font-weight:500;
+    opacity:0;
+    animation-name:fadeInSlideDown;
+    animation-duration:var(--landing-button-load-time);
+    animation-timing-function: ease-in;
+    animation-delay:var(--landing-button-load-delay);
+    animation-fill-mode:forwards;
+}
+#landingButton > a{
+    color:var(--material-white);
+}
+#landingButton > a:visited{
+    color:var(--material-white);
+}
+#chevron{
+    position:absolute;
+    bottom:25px;
+    transform:scale(1.15);
+    opacity:0;
+    animation-name:fadeIn;
+    animation-duration:var(--header-load-time);
+    animation-timing-function:linear;
+    animation-delay:var(--header-delay-time);
+    animation-fill-mode:forwards;
+
+}
+
+/* -- MENU NODE -- */
+#menuNode{
+    background-color:var(--material-red);
+}
+.splitNode{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    padding:56px 122px;
+    justify-content:center;
+    gap:6vw;
+}
+.splitNodeTextSection{
+    background-color:var(--material-black);
+    color:var(--material-white);
+    width:240px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:60px 53px;
+    padding-top:30px;
+}
+.splitNodeTextSection > h2{
+    text-align:center;
+}
+.splitNodeTextSection > p{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.splitNodeTextSection button{
+    border: 1px solid var(--material-white);
+    border-radius:5px;
+    background-color:var(--material-black);
+    color:var(--material-white);
+    font-family:"Inter";
+    font-weight:600;
+    font-size:16px;
+    line-height:0;
+    padding:15px 10px;
+}
+.splitNodeTextSection > button:hover{
+    cursor:pointer;
+}
+.splitNodeTextSection a{
+    color:var(--material-white);
+}
+.splitNode > *{
+    box-shadow:4px 4px 4px rgba(0, 0, 0, 0.45);
+    border-radius:5px;
+}
+
+/* -- QUOTE NODE -- */
+#quoteNode{
+    width:100%;
+    background-color:var(--material-white);
+    padding:56px 122px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#review{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+}
+#review > h3{
+    line-height:3px;
+}
+#review > p{
+    width:50%;
+}
+#signature{
+    line-height:0;
+    font-weight:bold;
+}
+
+/* -- CATERING NODE -- */
+#cateringNode{
+    background-color:var(--material-green);
+}
+
+/* -- IMAGE NODE -- */
+#imageNode{
+    width:100%;
+    height:360px;
+    overflow:hidden;
+    background:url("../img/pesto.png");
+    background-size:cover;
+    background-position:20% 50%;
+}
+
+/* -- ANIMATIONS -- */
+@keyframes fadeInSlideDown{
+    0%{
+        opacity:0;
+        transform:translateY(-8px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes headerAnimation{
+    0%{
+        box-shadow:none;
+    }
+    100%{
+        transform:none;
+        box-shadow:4px 4px 4px rgba(0, 0, 0, 0.45);
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes stopScrolling {
+    0%{
+        overflow-y:hidden;
+    }
+    100%{
+        overflow-y:auto;
+    }
+}

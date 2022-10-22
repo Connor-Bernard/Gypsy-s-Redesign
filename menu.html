@@ -1,0 +1,112 @@
+<!--
+ - Copyright (c) 2022
+ -
+ - @summary Menu page
+ - @author Connor Bernard <connorbernard@berkeley.edu>
+ -
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- SET UP AND METADATA -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Gypsy's Website redesign by Connor Bernard" />
+        <meta name="author" content="Connor Bernard" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/menu.css" />
+        <title>Gypsy's</title>
+    </head>
+    <body>
+        <script src="./assets/js/menu.js" defer></script>
+
+        <!-- HEADER -->
+        <header>
+            <a class="logo" href="./index.html">
+                <div>
+                    <img class="logoImg" src="./assets/img/logo.png" alt="logo" height="40px"/>
+                    <div class="logoText">Gypsy's</div>
+                </div>
+            </a>
+            <div class="navBar">
+                <a class="navItem" href="./catering.html">Catering</a>
+                <a class="navItem" href="./location.html">Location</a>
+                <a class="navItem" href="./contact.html">Contact</a>
+                <button class="navItem navButton"><a href="./menu.html">Menu</a></buttton>
+            </div>
+        </header>
+        <div class="headerOffset"></div>
+
+        <!-- PAGE TITLE -->
+        <section class="pageTitle">
+            <h3>Menu</h3>
+        </section>
+
+        <!-- TEMPLATE -->
+        <template menuNodeTemplate>
+            <section class="menuNode">
+                <div class="protein">
+                    <h2></h2>
+                    <svg width="47" height="2" viewBox="0 0 47 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1H46.5" stroke="#F7F7F0" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="menuItems">
+                    <template menuItemTemplate>
+                        <div class="item">
+                            <div class="itemHead">
+                                <h3></h3>
+                                <svg width="61" height="3" viewBox="0 0 61 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1.36841L60 1.3684" stroke="#191716" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <div class="price">
+                                    <div class="dollar"></div>
+                                    <div class="cents"></div>
+                                </div>
+                            </div>
+                            <div class="itemDescription">
+                                <p></p>
+                            </div>
+                            <div class="modifiers">
+                                <template modifier>
+                                    <div class="modifier">
+                                        <p></p>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </section>
+        </template>
+
+        <!-- MENU -->
+        <div menu></div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="socials">
+                <a><img alt="instagram" src="./assets/img/instagram.png" /></a>
+                <a><img alt="facebook" src="./assets/img/facebook.png" /></a>
+                <a><img alt="twitter" src="./assets/img/twitter.png" /></a>
+            </div>
+            <div class="footerInfo">
+                <img src="./assets/img/footerDivider.png" />
+                <div class="footerContactInfo">
+                    2519-A Durant Ave., Berkeley, CA 94704 <br />
+                    Tel: 510 548 4860 | Fax: 510 548 4875
+                </div>
+                <div class="copyright">
+                    © Copyright 2010 Connor Bernard
+                </div>
+            </div>
+            <div class="footerLinks">
+                <a class="footerLink" href="./catering.html">Catering</a>
+                <a class="footerLink" href="./location.html">Location</a>
+                <a class="footerLink" href="./menu.html">Menu</a>
+                <a class="footerLink" href="./contact.html">Contact</a>
+            </div>
+        </footer>
+    </body>
+</html>

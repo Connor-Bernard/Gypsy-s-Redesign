@@ -1,0 +1,49 @@
+/**
+ * Copyright (c) 2022
+ *
+ * @summary Catering page styling
+ * @author Connor Bernard <connorbernard@berkeley.edu>
+ *
+ */
+
+@import "./style.css";
+
+/* -- CATERING NODE -- */
+#cateringBody{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/cateringMain.png");
+    background-position:0% 30%;
+    background-color:var(--material-white);
+    height:95vh;
+    background-size:cover;
+    color:var(--material-white);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+#bodyText{
+    border:1px solid var(--material-white);
+    border-radius:10px;
+    padding:10px 150px;
+    width:35%;
+}
+#bodyText > ul{
+    margin-left:40px;
+    width:65%;
+}
+#bodyText li{
+    line-height:185%;
+}
+
+/* -- BOTTOM IMAGES NODE -- */
+#bottomImgNode{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    height:400px;
+}
+#bottomImgNode > img{
+    flex-grow:1;
+    border:10px solid var(--material-black);
+    object-fit:cover;
+}

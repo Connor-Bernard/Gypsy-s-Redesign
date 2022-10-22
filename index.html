@@ -1,0 +1,126 @@
+<!--
+ - Copyright (c) 2022
+ -
+ - @summary Landing page
+ - @author Connor Bernard <connorbernard@berkeley.edu>
+ -
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- SET UP AND METADATA -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Gypsy's Website redesign by Connor Bernard" />
+        <meta name="author" content="Connor Bernard" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/landing.css" />
+        <title>Gypsy's</title>
+    </head>
+    <body>
+        <script src="./assets/js/landing.js" defer></script>
+        <!-- HEADER -->
+        <header>
+            <a class="logo" href="./index.html">
+                <div>
+                    <img class="logoImg" src="./assets/img/logo.png" alt="logo" height="40px"/>
+                    <div class="logoText">Gypsy's</div>
+                </div>
+            </a>
+            <div class="navBar">
+                <a class="navItem" href="./catering.html">Catering</a>
+                <a class="navItem" href="./location.html">Location</a>
+                <a class="navItem" href="./contact.html">Contact</a>
+                <button class="navItem navButton"><a href="./menu.html">Menu</a></buttton>
+            </div>
+        </header>
+
+        <!-- INITIAL VIEW ON LOAD -->
+        <section id="landingImgSection">
+            <img id="landingImg" src="./assets/img/landing.png" alt="picture of pastas" />
+            <div id="landingOptions">
+                <h1 id="landingTxt">Best of Berkeley</h1>
+                <button id="landingButton"><a href="./menu.html">Order Now</a></button>
+            </div>
+            <img id="chevron" src="./assets/img/chevron.png" />
+        </section>
+
+        <!-- MENU NODE -->
+        <section id="menuNode" class="splitNode">
+            <img alt="Photo of pasta" src="./assets/img/tricolore.png" />
+            <div class="splitNodeTextSection">
+                <h2>Our Menu</h2>
+                <img src="./assets/img/redLine.png" />
+                <p>
+                    Everything is made from scratch in the restaurant on a daily basis,
+                    including base sauces, stocks, and meatballs.
+                    Prices are low and affordable, ranging from $8.74 to $12.74.
+                </p>
+                <button><a href="./menu.html">View Menu</a></button>
+            </div>
+        </section>
+
+        <!-- QUOTE NODE -->
+        <section id="quoteNode">
+            <img alt="yelp logo" src="./assets/img/yelp.png" />
+            <div id="review">
+                <h3>Voted Number 1 Best Italian Food in Berkeley</h3>
+                <img src="./assets/img/redLine.png" />
+                <p>
+                    “One of my favorite restaurants anywhere. Food tastes great.
+                    Prices are low. Portions are huge. The calzones look like
+                    footballs. That's all you need to know from me.”
+                </p>
+                <p id="signature">
+                    - Peter Alfonsi
+                </p>
+            </div>
+            <img src="./assets/img/snackpass.png" />
+        </section>
+
+        <!-- CATERING NODE -->
+        <section id="cateringNode" class="splitNode">
+            <div class="splitNodeTextSection">
+                <h2>Top Tier Catering</h2>
+                <img src="./assets/img/greenLine.png" />
+                <p>
+                    We can cater to your needs whenever they may be!
+                    Not only do we knock off 10% of the price for catering orders,
+                    but we also add in some complementary items!
+                </p>
+                <button><a href="./catering.html">Catering Options</a></button>
+            </div>
+            <img alt="Photo of pasta" src="./assets/img/parp.png" />
+        </section>
+
+        <!-- Image Node -->
+        <section id="imageNode">
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="socials">
+                <a><img alt="instagram" src="./assets/img/instagram.png" /></a>
+                <a><img alt="facebook" src="./assets/img/facebook.png" /></a>
+                <a><img alt="twitter" src="./assets/img/twitter.png" /></a>
+            </div>
+            <div class="footerInfo">
+                <img src="./assets/img/footerDivider.png" />
+                <div class="footerContactInfo">
+                    2519-A Durant Ave., Berkeley, CA 94704 <br />
+                    Tel: 510 548 4860 | Fax: 510 548 4875
+                </div>
+                <div class="copyright">
+                    © Copyright 2010 Connor Bernard
+                </div>
+            </div>
+            <div class="footerLinks">
+                <a class="footerLink" href="./catering.html">Catering</a>
+                <a class="footerLink" href="./location.html">Location</a>
+                <a class="footerLink" href="./menu.html">Menu</a>
+                <a class="footerLink" href="./contact.html">Contact</a>
+            </div>
+        </footer>
+    </body>
+</html>

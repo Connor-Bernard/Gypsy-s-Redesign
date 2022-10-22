@@ -1,0 +1,456 @@
+{
+    "pollo":[
+        {
+            "title":"Crazy Alfredo",
+            "price":12.24,
+            "description":"Chicken, Sausage, Roasted red peppers, Red wine, in Alfredo sauce tossed w/ Fettuccine",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Melanzana Con Pollo ",
+            "price":12.24,
+            "description":"Chicken, Spinach, Gilled eggplant, Garlic, Tomato sauce, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Godfather's favorite",
+            "price":12.24,
+            "description":"Chicken, Pancetta, Egg, Parmigiano cheese, tossed w/ Penne",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Pollo Gorgonzola",
+            "price":12.24,
+            "description":"Tri color Tortellini, Chicken, Garlic, Gorgonzola cheese w/ pink sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken and Broccoli",
+            "price":12.24,
+            "description":"Chicken, Broccoli, Garlic, Parmigiano cheese tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Piccata",
+            "price":12.24,
+            "description":"Chicken breast sautèed in a light buttery lemon, Capers, White wine sauce over Linguine",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Marsala",
+            "price":12.24,
+            "description":"Chicken breast sautèed with mushrooms in a sweet Sicilian Marsala sauce over Linguine",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Parmigiano",
+            "price":12.24,
+            "description":"Chicken breast with marinara sauce & Mozzarella cheese over Spaghetti",
+            "modifiers":[]
+        },
+        {
+            "title":"Pollo Con Pesto",
+            "price":12.24,
+            "description":"Chicken, Pesto sauce, Parmigiano, trace of cream tossed w/ Fettuccine",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Gnocchi",
+            "price":12.24,
+            "description":"Tri color potato pasta, Chicken, and cream sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Gypsy's Chicken",
+            "price":12.24,
+            "description":"Chicken, Garlic, Mushrooms, Cream & Parmigiano cheese tossed w/ Penne",
+            "modifiers":["fave"]
+        }
+    ],
+    "manzo":[
+        {
+            "title":"Bronx Tale",
+            "price":12.24,
+            "description":"Meatball & Sausage, Tomato sauce, Cheese, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Victor's Spaghetti",
+            "price":12.24,
+            "description":"Beef, Roasted red peppers, Oregano, Red wine, Tomato sauce tossed w/ Spaghetti",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Spaghetti with Meatballs",
+            "price":12.24,
+            "description":"Home made meatballs, Marinara sauce, cheese tossed w/ Spaghetti",
+            "modifiers":[]
+        },
+        {
+            "title":"Ravioli Bolognese",
+            "price":11.24,
+            "description":"Home made meat sauce tossed w/ cheese Ravioli",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Lasagna",
+            "price":12.24,
+            "description":"Home made meat Lasagna topped with Marinara sauce & Mozzarella cheese",
+            "modifiers":[]
+        },
+        {
+            "title":"Carbonara",
+            "price":11.24,
+            "description":"Pancetta, Egg, and Parmigiano tossed w/ Spaghetti",
+            "modifiers":[]
+        }
+    ],
+    "pesce":[
+        {
+            "title":"Linguine Clams",
+            "price":11.24,
+            "description":"Clams, Onion, Mix Veggie, Basil, White wine pink cream sauce w/Linguine",
+            "modifiers":[]
+        },
+        {
+            "title":"Shrimp Alfredo",
+            "price":12.24,
+            "description":"Baby Shrimp, Mushrooms, Garlic with cream and Parmigiano cheese sauce over Fettuccine",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Fettuccine Al Salmon",
+            "price":13.24,
+            "description":"Smoked salmon, Capers, Red onions, Tomato sauce tossed w/ Fettuccine",
+            "modifiers":[]
+        },
+        {
+            "title":"Tortellini Georgio",
+            "price":12.24,
+            "description":"Tri color Tortellini & Baby shrimp in cream and Parmigiano cheese sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Mediterranean",
+            "price":12.24,
+            "description":"Jumbo Shrimp, Sundried Tomato, Garlic over Angel Hair Pasta topped w/ Feta Cheese",
+            "modifiers":[]
+        },
+        {
+            "title":"Shrimp Alla Primavera",
+            "price":12.24,
+            "description":"Jumbo Shrimp, Garlic, Assorted Vegetables, Tomato sauce w/ Angel Hair Pasta",
+            "modifiers":[]
+        },
+        {
+            "title":"Frutti Di Mare",
+            "price":13.24,
+            "description":"Fresh Calamari, Jumbo Shrimp, Mussels, Clams, Garlic, Tomato sauce w/ Angel Hair Pasta",
+            "modifiers":[]
+        },
+        {
+            "title":"Gamberi e Capesante",
+            "price":13.24,
+            "description":"Jumbo shrimp, Scallops, garlic in creamy tomato sauce w/ Linguine",
+            "modifiers":[]
+        },
+        {
+            "title":"Scampi",
+            "price":13.24,
+            "description":"Jumbo Shrimp, Scallops, garlic, Capers in white wine lemon sauce w/ Spaghetti",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Gambaretti e pollo",
+            "price":13.24,
+            "description":"Pepperoni, Bacon, Mushroom, Pepper, Onion, cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Salmone Alfredo",
+            "price":13.24,
+            "description":"Salmon, Garlic, Mushroom, Bell pepper, White wine cream sauce",
+            "modifiers":[]
+        }
+    ],
+    "vegetariano":[
+        {
+            "title":"Penne Gorgonzola",
+            "price":9.74,
+            "description":"Spinach, Fresh Tomato, Gorgonzola cheese & Cream tossed w/ Penne",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Spaghetti Alla Primavera",
+            "price":9.74,
+            "description":"Assorted Vegetables sautèed in Garlic, Olive oil, Tomato sauce w/ Spaghetti",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Capricciosa",
+            "price":9.74,
+            "description":"Spinach, Roasted red peppers, Garlic, Tomato sauce, Trace of cream & cheese tossed w/ Penne",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Funghi",
+            "price":9.74,
+            "description":"Mushrooms, Garlic, White wine, Tomato sauce & Smoked Mozzarella, tossed w/ Fettuccine",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Ravioli Alfredo",
+            "price":9.74,
+            "description":"Cheese Ravioli with Alfredo & Parmigiano cheese sauce",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Fettuccine Con Pesto",
+            "price":9.74,
+            "description":"Fettuccine tossed with Pesto sauce & Parmigiano cheese",
+            "modifiers":["V", "fave"]
+        },
+        {
+            "title":"Fettuccine Alfredo",
+            "price":9.74,
+            "description":"Alfredo sauce, Mushrooms, tossed w/ Fettuccine",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Gnocchi Marinara",
+            "price":9.74,
+            "description":"Tri color potato pasta with Marinara sauce & Parmigiano cheese",
+            "modifiers":["V"]
+        },
+        {
+            "title":"Pomodoro",
+            "price":9.74,
+            "description":"Fresh Tomato, Fresh Basil, Garlic, Topped with shredded Parmigiano cheese w/ Angel hair pasta",
+            "modifiers":["V", "fave"]
+        },
+        {
+            "title":"Gnocchi Primavera",
+            "price":9.74,
+            "description":"Tri Color Gnocchi, Assorted Vegetables, Basil, Smoke Mozzarella & Pink sauce",
+            "modifiers":["V"]
+        }
+    ],
+    "calzone di pasta":[
+        {
+            "title":"Godfather",
+            "price":12.24,
+            "description":"Chicken, Pancetta, Egg, Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Pollo Pesto",
+            "price":12.24,
+            "description":"Chicken, Pesto sauce (Pine, Walnut, Pistachio nuts), Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Meatball & Sausage",
+            "price":12.24,
+            "description":"Tomato sauce, Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Shrimp",
+            "price":12.24,
+            "description":"with Alfredo Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Alfredo",
+            "price":12.24,
+            "description":"with Chicken, Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":[]
+        },
+        {
+            "title":"Penne Primavera",
+            "price":12.24,
+            "description":"Assorted vegetables, White sauce, Parmigiano Mozzarella cheese, tossed w/ Penne",
+            "modifiers":[]
+        }
+    ],
+    "pizza":[
+        {
+            "title":"Margarita",
+            "price":10.24,
+            "description":"Mozzarella & Cheddar cheese with Tomato sauce",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Milano",
+            "price":11.24,
+            "description":"Pepperoni, Mushroom, Mozzarella & Cheddar cheese with Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Caprese",
+            "price":10.24,
+            "description":"Mozzarella & Cheddar cheese, Tomato sauce topped with fresh Mozzarella, fresh Tomato & Basil",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Hawaiian",
+            "price":11.24,
+            "description":"Ham, Mozzarella & Cheddar cheese, Pineapple and Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Primavera",
+            "price":10.24,
+            "description":"Mushroom, Green pepper, Kalamata olives, Onion, Broccoli, cheese and Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Pesto",
+            "price":11.24,
+            "description":"Mozzarella & Cheddar cheese, Pesto sauce, topped with sautèed Chicken",
+            "modifiers":[]
+        },
+        {
+            "title":"Paradiso",
+            "price":12.24,
+            "description":"Pepperoni, Sausage, Salami, Green pepper, Mushroom, Olive, Onion, cheese and Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Amante Della Carne",
+            "price":12.24,
+            "description":"Ham, Salami, Italian sausage, Bacon, Jalapeño, cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Venezia",
+            "price":10.24,
+            "description":"Pepperoni, Bacon, Mushrooms, Pepper, Onion, cheese, Tomato sauce",
+            "modifiers":[]
+        }
+    ],
+    "calzone":[
+        {
+            "title":"Primavera",
+            "price":9.24,
+            "description":"Assorted Vegetables, Mozzarella cheese, Tomato sauce",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Pollo",
+            "price":10.24,
+            "description":"Chicken, Mushrooms, Onions, Cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Sicilia",
+            "price":10.24,
+            "description":"Steak, Mushrooms, Onions, Cheese, Tomato sauce",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Sausage",
+            "price":10.24,
+            "description":"Italian Sausage, Mushrooms, Onions, Cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Ham",
+            "price":10.24,
+            "description":"Ham, Mushrooms, Cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Meatball",
+            "price":10.24,
+            "description":"Home made Meatballs, Mushroom, Onion, Cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Pesto",
+            "price":10.24,
+            "description":"Chicken, Ricotta and Mozzarella cheese, and Pesto sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Combo",
+            "price":11.24,
+            "description":"Chicken, Sausage, Ham, Mushrooms, Onions, Cheese, Tomato sauce",
+            "modifiers":[]
+        },
+        {
+            "title":"Quatro",
+            "price":9.24,
+            "description":"Fresh Mozzarella, Ricotta, Gorgonzola, Mozzarella cheese, Tomato sauce",
+            "modifiers":[]
+        }
+    ],
+    "insalate e panini":[
+        {
+            "title":"Small Salad",
+            "price":4.99,
+            "description":"Romaine lettuce, cucumber, tomato, choice of dressing",
+            "modifiers":[]
+        },
+        {
+            "title":"Caesar Salad",
+            "price":6.99,
+            "description":"Romaine lettuce, shredded Parmigiano, Croutons with Caesar dressing",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Caprese Salad",
+            "price":7.99,
+            "description":"Fresh Mozzarella, Tomato, Basil with Balsamic vinegar olive oil mix or Caesar dressing",
+            "modifiers":["fave"]
+        },
+        {
+            "title":"Greek Salad",
+            "price":7.99,
+            "description":"Romaine lettuce, Cucumber, Tomato, Kalamata olives, Red Onions, Fetta cheese & roasted garlic bread",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Salad",
+            "price":10.99,
+            "description":"Romaine lettuce, Cucumber, Tomato & Julian chicken breast with roasted garlic bread",
+            "modifiers":[]
+        },
+        {
+            "title":"Shrimp Salad",
+            "price":11.99,
+            "description":"Shrimp sauteed with Red Onion, Romaine lettuce, Tomato, Avocado, Marinated Artichoke",
+            "modifiers":[]
+        },
+        {
+            "title":"Salmon Salad",
+            "price":11.99,
+            "description":"Salmon sauteed with Red Onion, Romaine lettuce, Tomato, Avocado, Marinated Artichoke",
+            "modifiers":[]
+        },
+        {
+            "title":"Lemon Chicken Salad",
+            "price":9.99,
+            "description":"Chicken sautèed in a light buttery lemon sauce over Romaine lettuce and bread",
+            "modifiers":[]
+        },
+        {
+            "title":"Eggplant Sandwich",
+            "price":8.99,
+            "description":"Eggplant, Marinara sauce, and Mozzarella cheese/ Roasted garlic spread upon request",
+            "modifiers":[]
+        },
+        {
+            "title":"Chicken Sandwich",
+            "price":9.99,
+            "description":"Chicken, Marinara sauce & Mozzarella cheese/ Roasted garlic spread upon request",
+            "modifiers":[]
+        },
+        {
+            "title":"Meatball Sandwich",
+            "price":9.99,
+            "description":"Homemade Meatballs, Marinara, Mozzarella cheese/ Roasted garlic spread upon request",
+            "modifiers":[]
+        }
+    ]
+}
